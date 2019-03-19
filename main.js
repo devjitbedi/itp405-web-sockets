@@ -1,4 +1,4 @@
-let connection = new WebSocket('ws://https://dbedi-websockets.herokuapp.com/');
+let connection = new WebSocket('ws://dbedi-websockets.herokuapp.com/');
 
 connection.onopen = () => {
   console.log('connected from the frontend');
