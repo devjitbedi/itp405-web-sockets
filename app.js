@@ -1,5 +1,3 @@
-
-    
 let WebSocket = require('ws');
 
 let wss = new WebSocket.Server({ port: process.env.PORT || 8080 });
